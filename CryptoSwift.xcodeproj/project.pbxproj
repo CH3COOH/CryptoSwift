@@ -159,7 +159,7 @@
 		81F279DF2181F5A000449EDA /* ScryptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F279DE2181F5A000449EDA /* ScryptTests.swift */; };
 		81F279E12181F5C500449EDA /* ScryptTestsPerf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F279E02181F5C500449EDA /* ScryptTestsPerf.swift */; };
 		81F279E22181F5C500449EDA /* ScryptTestsPerf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F279E02181F5C500449EDA /* ScryptTestsPerf.swift */; platformFilter = ios; };
-		AA54CF2F2B85F79E006BF411 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 75C454012B4B6EBC00FC5020 /* PrivacyInfo.xcprivacy */; };
+		AA54CF302B85F95A006BF411 /* PrivacyInfo.xcprivacy in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75C454012B4B6EBC00FC5020 /* PrivacyInfo.xcprivacy */; };
 		E3FD2D531D6B81CE00A9F35F /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD2D511D6B813C00A9F35F /* Error+Extension.swift */; };
 		E6200E141FB9A7AE00258382 /* HKDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6200E131FB9A7AE00258382 /* HKDF.swift */; };
 		E6200E171FB9B68C00258382 /* HKDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6200E151FB9B67C00258382 /* HKDFTests.swift */; };
@@ -226,8 +226,9 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 10;
+			dstSubfolderSpec = 7;
 			files = (
+				AA54CF302B85F95A006BF411 /* PrivacyInfo.xcprivacy in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,9 +794,9 @@
 			buildPhases = (
 				754BE45219693E190098E6F3 /* Headers */,
 				754BE45019693E190098E6F3 /* Sources */,
+				75B601E0197D69770009B53D /* CopyFiles */,
 				754BE45119693E190098E6F3 /* Frameworks */,
 				754BE45319693E190098E6F3 /* Resources */,
-				75B601E0197D69770009B53D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -938,7 +939,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA54CF2F2B85F79E006BF411 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
